@@ -13,14 +13,14 @@ h1 {
 
 /* Base styles for all screen sizes */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #ffffff;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -33,7 +33,7 @@ main {
 /* Mobile styles */
 @media (max-width: 600px) {
     body {
-        background-color: #e4e4e4;
+    background-color: #ffffff;
     }
 
     header, footer {
@@ -52,7 +52,7 @@ main {
 /* Tablet styles */
 @media (min-width: 601px) and (max-width: 1024px) {
     body {
-        background-color: #d4d4d4;
+        background-color: #ffffff;
     }
 
     h1 {
@@ -67,7 +67,7 @@ main {
 /* Desktop styles */
 @media (min-width: 1025px) {
     body {
-        background-color: #c4c4c4;
+        background-color: #ffffff;
     }
 
     h1 {
