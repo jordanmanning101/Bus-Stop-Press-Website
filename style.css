@@ -10,3 +10,71 @@ h1 {
 .center {
     text-align: center;
 }
+
+/* Base styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        background-color: #e4e4e4;
+    }
+
+    header, footer {
+        padding: 0.5em 0;
+    }
+
+    main {
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #d4d4d4;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    main {
+        padding: 2em;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    body {
+        background-color: #c4c4c4;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    main {
+        padding: 3em;
+    }
+}
