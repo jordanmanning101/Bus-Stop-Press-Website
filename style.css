@@ -1,19 +1,22 @@
+/* Use a more modern serif font */
 body {
-    font-family: 'Courier New', Times, serif;
+    font-family: 'courier', serif;
     background-color: #ffffff;
+    margin: auto; 
+    padding: auto; 
 }
 
 h1 {
     color: #000000;
-}
-
-.center {
-    text-align: center;
+    text-align: center; 
 }
 
 p {
     max-width: 800px;
     margin: 0 auto; 
     text-align: center; 
-  }
-  
+}
+
+.center {
+    text-align: center;
+}
